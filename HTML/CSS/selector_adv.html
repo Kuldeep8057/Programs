@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* h1:hover{
+        background-color: #6f66b1;
+        } */
+        button:focus{
+            background-color: #923a84;
+        }
+        div:first-child{
+            background-color: #84ab48;
+        }
+        div:last-child{
+            background-color: #4eac7d;
+        }
+        div:nth-child{
+            background-color: #253371;
+        }
+        /* special */
+        h1::after{
+            content: "after!";
+            color: red;
+            height: 20;
+            width: 20;
+        }
+        h1::before{
+            content: "after!";
+            color: rgb(150, 212, 74);
+            height: 20;
+            width: 20;
+        }
+        p::first-line{
+            background-color: #36769e;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <input type="checkbox" name="" id="">
+    <button>Submit</button>
+
+    <h1>Hover</h1>
+    <button>Focus</button>
+    <input type="checkbox"/>
+    <input type="text" required="true">
+
+    
+    <div>
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+    </div>
+
+    <h1>Pseudo before and after Selector</h1>
+    <h2>First letter Selector</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        At ducimus sapiente quidem exercitationem voluptate odit ipsum quo doloribus assumenda maiores!</p>
+
+</body>
+</html>

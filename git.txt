@@ -1,0 +1,7 @@
+git init
+git symbolic-ref HEAD refs/heads/main
+git add .
+git commit -m "New Repository Created"
+git remote add origin https://github.com/Kuldeep8057/Programs.git
+git branch -M main
+git push -u origin main

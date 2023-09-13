@@ -1,0 +1,8 @@
+4. List out any 3 tags we learned in this module and give a brief explanation about the tags.
+
+Ans: The 3 tags which we have learnt in this module are:
+
+<a> :	Defines a hyperlink
+<b> :	Defines bold text
+<br>:	Defines a single line break
+

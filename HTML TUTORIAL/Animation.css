@@ -1,0 +1,34 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid black;
+    transition: all 2s ease-in ;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation: colorAnimate 2s ease-in 0s infinite alternate;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+
+}
+@keyframes colorAnimate {
+    /* from{background-color: #1fb342;}
+    to{background-color: #230b78;} */
+    /* from{left: 0px;
+    background-color: #b5d93e;}
+    to {left: 200px;
+    background-color: #1bb8c4;} */
+    0%{left: 0px;
+        background-color: #b5d93e;}
+    50%{
+        background-color: #cd1395;
+    }
+    100%{left: 200px;
+        background-color: #1bb8c4;}
+}
+div:hover{
+
+}
+

@@ -1,0 +1,69 @@
+#traffic{
+    width: 150px;
+    height: 400px;
+    background-color: #020202;
+    border-radius: 25pc;
+    margin: 25px;
+    
+}
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: #f20606;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 25px;
+    position: relative;
+    top: 25px;
+    
+    
+}
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: #fdf007;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+    position: relative;
+    top: 25px;
+    
+}
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: #0cf52b;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 25px;
+    position: relative;
+    top: 10px;
+    
+}
+div{
+    display: inline-block;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: inline-block;
+    background-image:url("./dog.jpg");
+    background-size: cover;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(10, 196, 19);
+    
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(59, 252, 252);
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}

@@ -1,0 +1,13 @@
+3. Write a short note on tags, elements, and attributes along with relevant examples ?
+
+HTML Tags: Tags are the starting and ending parts of an HTML element. They begin with < symbol and end with > symbol. Whatever written inside < and > are called tags.
+
+Example: <p>I am kuldeep.</p>. In this example, the opening tag is <p> and the closing tag is </p>.
+
+HTML elements: Elements enclose the contents in between the tags. They consist of some kind of structure or expression. It generally consists of a start tag, content and an end tag.
+
+Example:<b>This is the content</b>. Where, <b> is the starting tag and </b> is the ending tag. The content along with the tags is the paragraph element.
+
+HTML Attributes: It is used to define the character of an HTML element. It always placed in the opening tag of an element. It generally provides additional styling (attribute) to the element.
+
+<a href="https://pwskills.com/" >Go To pwskills</a>. In this example, the a element is used to create a hyperlink. The href attribute specifies the URL that the hyperlink points to. The attribute values are enclosed in quotes.

@@ -1,0 +1,108 @@
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import Athiti font from google fonts -->  
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+    <!-- import Web App Title font -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Yanone+Kaffeesatz" rel="stylesheet">
+    <!-- linking style.css to index.html --> 
+    <!-- <link rel="stylesheet" type="text/css" href="index1.css"> -->
+    <!-- import jQuery --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <!-- linking script.js to index.html -->
+    <script type="text/javascript" src="index1.js"></script>
+    </head>
+    <style>
+        body, html {
+    background-color: rgb(134, 223, 174);
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    color: brown;
+    
+  }
+  
+  .one {
+    font-family: 'Athiti', sans-serif;
+    font-size: 50px;
+    color: rgb(29, 87, 234);
+  }
+
+  .two {
+    font-family: 'Athiti', sans-serif;
+    font-size: 50px;
+    color: rgb(190, 6, 113);
+  }
+  
+  .overall-container {
+    display:table;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    height: 100%; 
+    display: table-row;
+  }
+  
+  .row .cell {
+    display: table-cell;
+    float: none;
+  }
+  
+  /* Navigation - left side */
+  .cell-1 {   
+    background: rgb(180, 194, 115);
+    height: 300px;
+    
+  }
+
+.btn:hover{
+    color: rgb(185, 233, 154);
+    background-color: rgb(29, 87, 234);
+}
+
+/* .btn{
+  background-color: #cfb9e0;
+  border: 20px solid white;
+  border: 2px solid rgb(59, 15, 255);
+  animation: spinAnimate 3s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate{
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} */
+    </style>
+
+    <body>
+    <!-- body layout -->
+    <div class="overall-container">
+    <div class="row">
+    
+    <!-- left side -->
+    <div class="cell-1" style="padding-left: 30px;">
+        <h1><strong> Culturoo </strong></h1>
+        <p class="one"><marquee behavior="alternet" direction="left" scollamount="100">We break down cultural barriers.</marquee></p>
+        <p class="two"><marquee behavior="alternet" direction="right" scollamount="50">Start chatting now. Anywhere. Anytime.</marquee></p>
+        <a href="https://chrisjim316.github.io/culturoo-login/">
+        <h3><button class="btn" style="font-size: 80px; border-radius: 40px;" id="start">Start Now</button></h3></a>
+    </div>   
+    
+    </div>
+</div>  
+    
+    
+</body>

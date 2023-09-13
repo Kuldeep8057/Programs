@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            /* flex-direction: row-reverse; */
+            border: 1px solid black;
+            color: white;
+            align-items: center;
+            /* flex-wrap: nowrap; */
+            flex-wrap: wrap;
+            height: 15vh;
+        }
+        .item{
+            width: 100px;
+            background-color: #2751de;
+            border: 1px solid black;
+        }
+        .around{
+            align-content: space-around;
+        }
+        .between{
+            align-content: space-between;
+        }
+        .center{
+            align-content: center;
+        }
+        .start{
+            align-content: flex-start;
+        }
+        .end{
+            align-content: flex-end;
+        }
+        .evenly{
+            align-content: space-evenly;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <P>align-content:stretch(default)</P>
+    <div class="container stretch">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+    <P>align-content:space-around</P>
+    <div class="container stretch">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+    <P>align-content:space-between</P>
+    <div class="container between">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+    <P>align-content:start</P>
+    <div class="container start">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+    <P>align-content:end</P>
+    <div class="container end">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+    
+    <P>align-content:center</P>
+    <div class="container center">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+    <P>align-content:space-evenly</P>
+    <div class="container evenly">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+</body>
+</html>
